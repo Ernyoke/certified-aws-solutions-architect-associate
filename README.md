@@ -5,3 +5,4 @@
 1. Fundamentals
     - [AWS Regions](1-aws-fundamentals/regions.md)
     - [Elastic Load Balancers](1-aws-fundamentals/elb.md)
+    - [Auto Scaling Groups](1-aws-fundamentals/asg.md)
