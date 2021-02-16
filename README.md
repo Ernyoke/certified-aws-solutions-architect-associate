@@ -8,3 +8,4 @@
     - [Auto Scaling Groups](1-aws-fundamentals/asg.md)
     - [RDS - Relational Database Service](1-aws-fundamentals/rds.md)
     - [Amazon Aurora](1-aws-fundamentals/aurora.md)
+    - [ElastiCache](1-aws-fundamentals/elasticache.md)
