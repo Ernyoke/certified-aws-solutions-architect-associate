@@ -9,3 +9,6 @@
     - [RDS - Relational Database Service](1-aws-fundamentals/rds.md)
     - [Amazon Aurora](1-aws-fundamentals/aurora.md)
     - [ElastiCache](1-aws-fundamentals/elasticache.md)
+2. Deep Dive
+    - [Classic Architecture Discussion](2-deep-dive/architecture.md)
+    - [Elastic Beanstalk](2-deep-dive/beanstalk.md)
