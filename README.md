@@ -12,3 +12,4 @@
 2. Deep Dive
     - [Classic Architecture Discussion](2-deep-dive/architecture.md)
     - [Elastic Beanstalk](2-deep-dive/beanstalk.md)
+    - [CloudFront](2-deep-dive/cloudfront.md)
