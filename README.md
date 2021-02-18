@@ -15,3 +15,4 @@
     - [CloudFront](2-deep-dive/cloudfront.md)
     - [Global Accelerator](2-deep-dive/global-accelerator.md)
     - [Snowball](2-deep-dive/snowball.md)
+    - [Storage Gateway](2-deep-dive/storage-gateway.md)
