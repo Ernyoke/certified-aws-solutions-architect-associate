@@ -17,4 +17,4 @@
     - [Global Accelerator](2-deep-dive/global-accelerator.md)
     - [Snowball](2-deep-dive/snowball.md)
     - [Storage Gateway](2-deep-dive/storage-gateway.md)
-    - [Amazon Fsx](2-deep-dive/fsx.md)
+    - [Amazon FSx](2-deep-dive/fsx.md)
