@@ -18,4 +18,4 @@
     - [Snowball](2-deep-dive/snowball.md)
     - [Storage Gateway](2-deep-dive/storage-gateway.md)
     - [Amazon FSx](2-deep-dive/fsx.md)
-    - [Networking and VPS](2-deep-dive/vpc.md)
+    - [Networking and VPC](2-deep-dive/vpc.md)
