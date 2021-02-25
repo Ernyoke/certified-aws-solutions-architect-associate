@@ -4,6 +4,7 @@
 
 1. Fundamentals
     - [AWS Regions](1-aws-fundamentals/regions.md)
+    - [AWS EC2](1-aws-fundamentals/ec2.md)
     - [Elastic Load Balancers](1-aws-fundamentals/elb.md)
     - [Auto Scaling Groups](1-aws-fundamentals/asg.md)
     - [RDS - Relational Database Service](1-aws-fundamentals/rds.md)
