@@ -24,3 +24,4 @@
     - [Networking and VPC](2-deep-dive/vpc.md)
 3. Serverless
     - [AWS Lambda Functions](3-aws-serverless/lambda.md)
+    - [DynamoDB](3-aws-serverless/dynamodb.md)
