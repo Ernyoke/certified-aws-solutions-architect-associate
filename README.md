@@ -7,6 +7,8 @@
     - [AWS EC2](1-aws-fundamentals/ec2.md)
     - [Elastic Load Balancers](1-aws-fundamentals/elb.md)
     - [Auto Scaling Groups](1-aws-fundamentals/asg.md)
+    - [Elastic Block Storage](1-aws-fundamentals/ebs.md)
+    - [Elastic File System](1-aws-fundamentals/efs.md)
     - [RDS - Relational Database Service](1-aws-fundamentals/rds.md)
     - [Amazon Aurora](1-aws-fundamentals/aurora.md)
     - [ElastiCache](1-aws-fundamentals/elasticache.md)
