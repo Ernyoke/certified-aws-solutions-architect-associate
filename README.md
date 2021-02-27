@@ -18,6 +18,8 @@
     - [Elastic Beanstalk](2-deep-dive/beanstalk.md)
     - [CloudFront](2-deep-dive/cloudfront.md)
     - [CloudWatch](2-deep-dive/cloudwatch.md)
+    - [CloudTrail](2-deep-dive/cloudtrail.md)
+    - [AWS Config](2-deep-dive/config.md)
     - [Global Accelerator](2-deep-dive/global-accelerator.md)
     - [Snowball](2-deep-dive/snowball.md)
     - [Storage Gateway](2-deep-dive/storage-gateway.md)
