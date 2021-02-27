@@ -25,3 +25,6 @@
 3. Serverless
     - [AWS Lambda Functions](3-aws-serverless/lambda.md)
     - [DynamoDB](3-aws-serverless/dynamodb.md)
+    - [API Gateway](3-aws-serverless/api-gateway.md)
+    - [AWS Cognito](3-aws-serverless/cognito.md)
+    - [AWS SAM - Serverless Application Model](3-aws-serverless/sam.md)
