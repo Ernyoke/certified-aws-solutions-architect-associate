@@ -72,7 +72,7 @@
 - Must be created separately from a VPC
 - One VPC can have only one attached internet gateway, one internet gateway can have only one VPC
 - Internet Gateway is also a NAT for the instances that have a public IPv4
-- Internet Gateways on their one don not allow internet access, route tables also must be configured
+- Internet Gateways on their one do not allow internet access, route tables also must be configured
 
 ## NAT Instances - Network Address Translation (outdated)
 
@@ -193,7 +193,7 @@
 
 - Virtual Private Gateway:
     - VPN concentrator on the AWS side of the VPN connection
-    - Virtual Private Gateway (VGW) is created and attached to the VPC from which we want to create the site-to-site VPN connection
+    - Virtual Private Gateway (VPG) is created and attached to the VPC from which we want to create the site-to-site VPN connection
     - Possibility to customize the ASN
 - Customer Gateway:
     - Software application or physical device on customer side of the VPN connection
