@@ -17,6 +17,7 @@
     - [Classic Architecture Discussion](2-deep-dive/architecture.md)
     - [Elastic Beanstalk](2-deep-dive/beanstalk.md)
     - [CloudFront](2-deep-dive/cloudfront.md)
+    - [CloudWatch](2-deep-dive/cloudwatch.md)
     - [Global Accelerator](2-deep-dive/global-accelerator.md)
     - [Snowball](2-deep-dive/snowball.md)
     - [Storage Gateway](2-deep-dive/storage-gateway.md)
