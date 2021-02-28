@@ -32,7 +32,7 @@
 - Can be used for virtual desktops, low-latency applications, development and test environments
 - Size can range from 1GiB to 16TiB
 - Small GP2 volumes can burst IOPS to 3000
-- Max IOS is 16000
+- Max IOPS is 16000
 - We get 3 IOPS per GiB, which means at 5334GiB we are the max IOPS size
 
 ### IO1 
@@ -41,6 +41,7 @@
 - Recommended for large database workloads
 - Size can be between 4Gib and 16 TiB
 - The maximum ratio of provisioned IOPS per requested volume size is 50:1
+- Max IOPS for IO1/2 volumes is 64000 IOPS for instances built on Nitro System and 32000 for other type of instances
 
 ### ST1
 
