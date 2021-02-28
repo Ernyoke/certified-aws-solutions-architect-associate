@@ -51,13 +51,15 @@ It validates an examinee's ability to:
     - Multiple response
 
 - Minimum passing score: 720/1000
+- Number of questions: 65
+- Time: 130 minutes to complete the exam (with a possibility to request 30 minutes extra for non-native english speakers)
 
-## Exam content
+### Exam Content
 
-| Domain                                       | % of Examination |
-|----------------------------------------------|------------------|
-| Design Resilient Architectures               | 30%              |
-| Design High-Performing Architectures         | 28%              |
-| Design Secure Applications and Architectures | 24%              |
-| Design Cost-Optimized Architectures          | 18%              |
-| **Total**                                    | **100%**         |
+| **Domain**                                   | **% of Examination** |
+|----------------------------------------------|----------------------|
+| Design Resilient Architectures               | 30%                  |
+| Design High-Performing Architectures         | 28%                  |
+| Design Secure Applications and Architectures | 24%                  |
+| Design Cost-Optimized Architectures          | 18%                  |
+| **Total**                                    | **100%**             |
