@@ -26,6 +26,7 @@
     - [Storage Gateway](2-deep-dive/storage-gateway.md)
     - [Amazon FSx](2-deep-dive/fsx.md)
     - [Networking and VPC](2-deep-dive/vpc.md)
+    - [Databases](2-deep-dive/databases.md)
 3. Serverless
     - [AWS Lambda Functions](3-aws-serverless/lambda.md)
     - [DynamoDB](3-aws-serverless/dynamodb.md)
