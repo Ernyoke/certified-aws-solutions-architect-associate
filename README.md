@@ -14,6 +14,7 @@
     - [ElastiCache](1-aws-fundamentals/elasticache.md)
     - [Amazon S3](1-aws-fundamentals/s3.md)
 2. Deep Dive
+    - [AWS CLI, SDK, IAM Roles and Policies](2-deep-dive/cli.md)
     - [Classic Architecture Discussion](2-deep-dive/architecture.md)
     - [Elastic Beanstalk](2-deep-dive/beanstalk.md)
     - [CloudFront](2-deep-dive/cloudfront.md)
