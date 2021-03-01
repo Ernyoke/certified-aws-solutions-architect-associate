@@ -37,6 +37,7 @@
     - [Advanced IAM](4-aws-security-and-disaster-recovery/advanced-iam.md)
     - [Disaster Recovery](4-aws-security-and-disaster-recovery/disaster-recovery.md)
     - [DMS - Database Migration Tool](4-aws-security-and-disaster-recovery/dms.md)
+    - [AWS DataSync](4-aws-security-and-disaster-recovery/datasync.md)
 
 ## Exam Description
 
