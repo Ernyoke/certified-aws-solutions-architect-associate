@@ -35,6 +35,7 @@
     - [AWS SAM - Serverless Application Model](3-aws-serverless/sam.md)
 4. Security and Disaster Recovery
     - [Advanced IAM](4-aws-security-and-disaster-recovery/advanced-iam.md)
+    - [Disaster Recovery](4-aws-security-and-disaster-recovery/disaster-recovery.md)
 
 ## Exam Description
 
