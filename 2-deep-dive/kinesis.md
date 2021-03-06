@@ -60,3 +60,68 @@
 - Encryption at rest using KMS
 - Possibility to encrypt/decrypt data client side
 - VPC Endpoints available for Kinesis to be access within VPCs
+
+## Kinesis Data Firehose
+
+- Fully managed service, no administration required, provides automatic scaling, it is basically serverless
+- Used for load data into Redshift, S3, ElasticSearch and Splunk
+- It is **Near Real Time**: 60 seconds latency minimum for non full batches or minimum 32 MB of data at a time
+- Supports many data formats, conversions, transformation and compression
+- Pay for the amount of data going through Firehose
+
+### Kinesis Data Streams vs Firehose
+
+- Streams:
+    - Requires to write custom code (producer/consumer)
+    - Real time (~200 ms)
+    - Must manage scaling (shard splitting / merging)
+    - Can store data into stream, data can be stored from 1 to 7 days
+    - Data can be read by multiple consumers
+- Firehose:
+    - Fully managed, sends data to S3, Redshift, Splunk, ElasticSearch
+    - Serverless, data transformation can be done with Lambda
+    - Near real time
+    - Scales automatically
+    - It provides no data storage
+
+## Kinesis Data Analytics
+
+- Can take data from Kinesis Data Streams and Kinesis Firehose and perform some queries on it
+- It can perform real-time analytics using SQL
+- Kinesis Data Analytics properties:
+    - Automatically scales
+    - Managed: no servers to provision
+    - Continuous: analytics are done in real time
+- Pricing: pay per consumption rate
+- It can create streams out of real-time queries
+
+## Data Ordering with Kinesis
+
+- Data with the same partition key goes to the same shard
+- Data is ordered per shard
+
+## SQS vs SNS vs Kinesis
+
+- SQS:
+    - Consumers pull data
+    - Data is deleted after being consumed
+    - Can have many consumers as we want
+    - No need to provision throughput
+    - No ordering guarantee in case of standard queues
+    - Capability to delay individual messages
+- SNS:
+    - Pub/Sub: publish data to many subscribers
+    - We can have up to 10 million subscribers per topic
+    - Data is not persisted (it is lost if not delivered)
+    - Up to 10k topics per account
+    - No need to provision throughput
+    - Integrates with SQS for fan-out architecture
+- Kinesis Data Streams:
+    - Consumers "pull data"
+    - We can have as many consumers as we want
+    - Possibility to replay data
+    - Recommended for real-time big data analytics and ETL
+    - Ordering happens at the shard level
+    - Data expires after X days
+    - Must provision throughput
+    

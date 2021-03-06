@@ -30,6 +30,7 @@
     - [SQS - Simple Queue Service](2-deep-dive/sqs.md)
     - [SNS - Simple Messaging Service](2-deep-dive/sns.md)
     - [AWS Kinesis](2-deep-dive/kinesis.md)
+    - [Amazon MQ](2-deep-dive/amazon-mq.md)
 3. Serverless
     - [AWS Lambda Functions](3-aws-serverless/lambda.md)
     - [DynamoDB](3-aws-serverless/dynamodb.md)

@@ -89,3 +89,11 @@
 
 - Allows scaling the number of EC2 instances based on the available messages in the queue
 - In order to accomplish auto scaling we have to create a CloudWatch custom metric representing the number of available messages on the queue divided by the number of EC2 instances. This metric is pushed from an EC2 instance
+
+## Data Ordering in SQS
+
+- For standard SQS queues there is no data ordering
+- For SQS FIFO, if we don't use a Group ID, messages are consumed in the order they are sent, with **only one consumer**
+- Messages can be group by specifying a Group ID for the message
+- For each group we can have different consumers, which will read messages in order
+
