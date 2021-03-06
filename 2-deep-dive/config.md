@@ -28,7 +28,7 @@
     - At regular time intervals
 - Evaluation of rules can trigger CloudWatch events if the rule is non-compliant
 - Rules can have auto remediations: if a resource is not compliant, the is an option to trigger auto remediation, example: stop instances with non-approved tags
-- **AWS Config Rules do not prevent actions from happening (no deny)
+- **AWS Config Rules do not prevent actions from happening (no deny)**
 
 ## CloudWatch vs CloudTrail vs Config
 

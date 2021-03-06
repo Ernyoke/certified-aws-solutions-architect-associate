@@ -42,6 +42,10 @@
     - [Disaster Recovery](4-aws-security-and-disaster-recovery/disaster-recovery.md)
     - [DMS - Database Migration Tool](4-aws-security-and-disaster-recovery/dms.md)
     - [AWS DataSync](4-aws-security-and-disaster-recovery/datasync.md)
+5. Other Services
+    - [CICD - Continuous Integration / Continuous Delivery](5-other-services/cicd.md)
+    - [CloudFormation](5-other-services/cloudformation.md)
+    - [Containers in the Cloud](5-other-services/containers.md)
 
 ## Exam Description
 
