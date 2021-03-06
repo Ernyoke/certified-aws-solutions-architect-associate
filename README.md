@@ -46,6 +46,8 @@
     - [CICD - Continuous Integration / Continuous Delivery](5-other-services/cicd.md)
     - [CloudFormation](5-other-services/cloudformation.md)
     - [Containers in the Cloud](5-other-services/containers.md)
+    - [Data Analytics](5-other-services/data-analytics.md)
+    - [Other Services (OpsWorks, Elastic Transcoder, Workspaces, Appsync)](5-other-services/other.md)
 
 ## Exam Description
 
