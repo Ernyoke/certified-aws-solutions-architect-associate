@@ -183,7 +183,7 @@
 - It is possible the share AMI with another AWS account
 - Sharing an AMI does not affect the ownership of the AMI
 - If a shared AMI is copied, than the account who did the copy becomes the owner
-- To copy an AMI that was shared from another account, the owner of the source AMI must grant read permissions for the storage that bask the AMI, either the associated EBS snapshot or an associated S3 bucket
+- To copy an AMI that was shared from another account, the owner of the source AMI must grant read permissions for the storage that backs the AMI, either the associated EBS snapshot or an associated S3 bucket
 - Limits:
     - An encrypted AMI can not be copied. Instead, if the underlying snapshot and encryption key where shared, we can copy the snapshot while re-encrypting it with a key of our own. The copied snapshot can be registered as a new AMI
     - We cant copy an AMI with an associated **billingProduct** code that was shared with us from another account. This includes Windows AMIs and AMIs from the AWS Marketplace. To copy a shared AMI with **billingProduct** code, we have to launch an EC2 instance from our account using the shared AMI and then create an AMI from source

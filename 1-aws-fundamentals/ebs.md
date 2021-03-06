@@ -58,6 +58,22 @@
 - Can not be a boot volume
 - Max IOPS is 250, max throughput 250MiB/sec
 
+### Limits
+
+- SSD, General Purpose – gp2
+    – Volume size 1 GiB – 16 TiB
+    – Max IOPS/volume 16,000
+- SSD, Provisioned IOPS – i01
+    – Volume size 4 GiB – 16 TiB
+    – Max IOPS/volume 64,000
+– HDD, Throughput Optimized – (st1)
+    – Volume size 500 GiB – 16 TiB 
+    - Throughput measured in MB/s, and includes the ability to burst up to 250 MB/s per TB, with a baseline throughput of 40 MB/s per TB and a maximum throughput of 500 MB/s per volume
+- HDD, Cold – (sc1)
+    – Volume size 500 GiB – 16 TiB.
+    - Lowest cost storage – cannot be a boot volume
+– These volumes can burst up to 80 MB/s per TB, with a baseline throughput of 12 MB/s per TB and a maximum throughput of 250 MB/s per volume: HDD, Magnetic – Standard – cheap, infrequently accessed storage – lowest cost storage that can be a boot volume
+
 ## EBS Snapshots
 
 - Snapshots are incremental - only the changed blocks are backed up

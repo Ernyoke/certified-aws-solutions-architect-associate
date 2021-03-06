@@ -83,6 +83,12 @@
 - If the default cool-down period of 300 seconds is too long, we can reduce costs by applying a scaling-specific cool-down of 180 seconds for example
 - If our application is scaling up and down multiple times each hour, we can modify the ASG cool-down timers and the CloudWatch alarm period that triggers the scale
 
+## Suspend and Resume Scaling Processes
+
+- We can suspend and then resume one or more of the scaling processes for our ASG. This can be useful when we want to investigate a configuration problem or other issue with our web application and then make changes to our application, without invoking the scaling processes.
+- We can manually move an instance from an ASG and put it in the standby state
+- Instances in standby state are still managed by Auto Scaling, are charged as normal, and do not count towards available EC2 instance for workload/application use. Auto scaling does not perform health checks on instances in the standby state. Standby state can be used for performing updates/changes/troubleshooting etc. without health checks being performed or replacement instances being launched.
+
 ## ASG for Solutions Architects
 
 - **ASG Default Termination Policy**
