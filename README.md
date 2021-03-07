@@ -50,6 +50,7 @@
     - [Other Services (OpsWorks, Elastic Transcoder, Workspaces, Appsync)](5-other-services/other.md)
 6. Whitepapers
     - [Well Architectured Framework](6-whitepapers/well-architectured-framework.md)
+    - [AWS Truster Advisor](6-whitepapers/trusted-advisor.md)
 
 ## Exam Description
 
