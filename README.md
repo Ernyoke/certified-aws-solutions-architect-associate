@@ -48,6 +48,8 @@
     - [Containers in the Cloud](5-other-services/containers.md)
     - [Data Analytics](5-other-services/data-analytics.md)
     - [Other Services (OpsWorks, Elastic Transcoder, Workspaces, Appsync)](5-other-services/other.md)
+6. Whitepapers
+    - [Well Architectured Framework](6-whitepapers/well-architectured-framework.md)
 
 ## Exam Description
 
