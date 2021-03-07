@@ -217,7 +217,7 @@
         - Physical ethernet port dedicated to a customer
         - In order to get this a request has to be made to AWS first, then completed by AWS Direct Connect Partners
     - Hosted Connections: 50 Mbps, 500 Mbps, up to 10 GBps
-        - Connection requests are made bia AWS Direct Connect Partners
+        - Connection requests are made via AWS Direct Connect Partners
         - Capacity can be added or removed on demand
 - Lead times are often longer than 1 month
 

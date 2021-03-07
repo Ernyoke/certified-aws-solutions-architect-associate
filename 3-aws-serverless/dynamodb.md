@@ -65,7 +65,7 @@
 - On-demand
     - No capacity planning needed (WCU/RCU) - scales automatically
     - It is 2.5x more expensive than provisioned capacity
-    - Helpful for spikes and upredictable loads or if the application has a very low throughput
+    - Helpful for spikes and unpredictable loads or if the application has a very low throughput
 
 ## Security
 

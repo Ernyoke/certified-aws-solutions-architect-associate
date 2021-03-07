@@ -124,4 +124,3 @@
     - Ordering happens at the shard level
     - Data expires after X days
     - Must provision throughput
-    
