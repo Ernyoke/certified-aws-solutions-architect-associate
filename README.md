@@ -13,6 +13,7 @@
     - [Amazon Aurora](1-aws-fundamentals/aurora.md)
     - [ElastiCache](1-aws-fundamentals/elasticache.md)
     - [Amazon S3](1-aws-fundamentals/s3.md)
+    - [Route 53](1-aws-fundamentals/route53.md)
 2. Deep Dive
     - [AWS CLI, SDK, IAM Roles and Policies](2-deep-dive/cli.md)
     - [Classic Architecture Discussion](2-deep-dive/architecture.md)
