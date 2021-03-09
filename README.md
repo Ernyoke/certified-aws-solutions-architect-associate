@@ -40,6 +40,13 @@
     - [AWS SAM - Serverless Application Model](3-aws-serverless/sam.md)
 4. Security and Disaster Recovery
     - [Advanced IAM](4-aws-security-and-disaster-recovery/advanced-iam.md)
+    - [Encryption](4-aws-security-and-disaster-recovery/encryption.md)
+    - [SSM Parameter Store](4-aws-security-and-disaster-recovery/ssm.md)
+    - [Secrets Manager](4-aws-security-and-disaster-recovery/secrets-manager.md)
+    - [CloudHSM](4-aws-security-and-disaster-recovery/cloudhsm.md)
+    - [Shield](4-aws-security-and-disaster-recovery/shield.md)
+    - [WAF - Web Application Firewall](4-aws-security-and-disaster-recovery/waf.md)
+    - [Shared Responsibility Model](4-aws-security-and-disaster-recovery/shared-responsibility-model.md)
     - [Disaster Recovery](4-aws-security-and-disaster-recovery/disaster-recovery.md)
     - [DMS - Database Migration Tool](4-aws-security-and-disaster-recovery/dms.md)
     - [AWS DataSync](4-aws-security-and-disaster-recovery/datasync.md)
