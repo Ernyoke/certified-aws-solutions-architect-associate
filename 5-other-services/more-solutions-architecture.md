@@ -82,3 +82,23 @@
         - Open source cluster management tools to deploy HPC on AWS
         - It is configured with text files
         - Automate creation of VPC, Subnet, cluster type and instance types
+
+
+## Highly Available EC2 Instances
+
+1. Option:
+    - Main EC2 instance with Elastic IP + standby EC2 instance for failover
+    - EC2 instance can be monitored with CloudWatch Events + Lambda functions. Using this method we can failover in case of an issue.
+2. Option:
+    - ASG in 2 availability zones
+    - ASG settings: 1 min, 1 max, 1 desired
+    - In case of failover the new instance will be launched in the second AZ
+    - The Elastic IP can be attached to the instance with using an user data script
+3. Option:
+    - Setup is same as option 2 + EBS
+    - ASG can use lifecycle groups, based on these we can create an EBS snapshot and attach it to the newer instance
+
+## Highly Available Bastion Hosts
+
+- Bastion hosts can be created in multiple subnet, same VPC
+- We can create a Network Load Balancer which can route traffic to multiple bastion hosts
