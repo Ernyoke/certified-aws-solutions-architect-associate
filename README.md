@@ -15,6 +15,7 @@
     - [Amazon S3](1-aws-fundamentals/s3.md)
     - [Route 53](1-aws-fundamentals/route53.md)
 2. Deep Dive
+    - [Advanced S3](2-deep-dive/advanced-s3.md)
     - [AWS CLI, SDK, IAM Roles and Policies](2-deep-dive/cli.md)
     - [Classic Architecture Discussion](2-deep-dive/architecture.md)
     - [Elastic Beanstalk](2-deep-dive/beanstalk.md)
