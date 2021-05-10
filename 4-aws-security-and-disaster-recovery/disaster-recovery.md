@@ -10,7 +10,7 @@
 ## RPO and RTO
 
 - RPO - Recovery Point Objective: How often we create backups. Time between the RPO and the disaster is the data loss
-- RPT - Recovery Time Objective: The point in time when the recovery finishes. The time between the disaster and the RTO is downtime
+- RTO - Recovery Time Objective: The point in time when the recovery finishes. The time between the disaster and the RTO is downtime
 
 ## Disaster Recovery Strategies
 
