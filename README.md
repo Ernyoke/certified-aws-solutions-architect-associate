@@ -1,4 +1,4 @@
-# certified-aws-solutions-architect-associate
+# AWS Certified Solutions Architect - Associate (SAA-S02) Exam Notes
 
 ## Table of Contents
 
@@ -82,7 +82,7 @@ It validates an examinee's ability to:
 - Number of questions: 65
 - Time: 130 minutes to complete the exam (with a possibility to request 30 minutes extra for non-native english speakers)
 
-### Exam Content
+## Exam Content
 
 | **Domain**                                   | **% of Examination** |
 |----------------------------------------------|----------------------|
@@ -91,3 +91,14 @@ It validates an examinee's ability to:
 | Design Secure Applications and Architectures | 24%                  |
 | Design Cost-Optimized Architectures          | 18%                  |
 | **Total**                                    | **100%**             |
+
+## Credits
+
+- These notes are based on the Ultimate [AWS Certified Solutions Architect Associate 2021](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) course by Stephane Maarek
+
+## My other AWS Certification Notes
+
+- [AWS Certified Developer – Associate (DVA-C01)](https://github.com/Ernyoke/certified-aws-developer-associate-notes)
+- [AWS Certified SysOps – Associate (SOA-C01)](https://github.com/Ernyoke/certified-aws-sysops-associate)
+- [AWS Certified DevOps Engineer – Professional (DOP-C01)](https://github.com/Ernyoke/certified-aws-devops-professional)
+- [AWS Certified Solutions Architect – Professional (SAP-C01)](https://github.com/Ernyoke/certified-aws-solutions-architect-professional)
