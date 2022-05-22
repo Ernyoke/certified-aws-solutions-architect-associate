@@ -114,7 +114,7 @@ stickiness period
 - Classic Load Balancer: 
     - Cross-zone load balancing is disabled by default
     - No additional charges for cross zone load balancing if the feature is enabled
-- Classic Load Balancer: 
+- Application Load Balancer: 
     - Cross-zone load balancing is always on, can not be disabled
     - No charges applied for cross zone load balancing
 - Network Load Balancer:
