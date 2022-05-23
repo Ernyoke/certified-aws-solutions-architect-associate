@@ -8,7 +8,7 @@
 - EBS is a network drive:
     - It uses the network to communicate with the instance, which can introduce latency
     - It can be detached from an EC2 and attached ot another
-- EBS volumes are locker to an AZ
+- EBS volumes are locked to an AZ
 - To move a volume across, we need to create a snapshot
 - EBS volumes have a provisioned capacity (size in GB and IOPS)
 - Billing is done for all provisioned capacity even if the capacity is not fully used
