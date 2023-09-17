@@ -12,7 +12,7 @@
     - Emails
     - SMS messages
     - Mobile Notifications
-- Many different services integrate with SNS for notifications, fo example:
+- Many different services integrate with SNS for notifications, for example:
     - CloudWatch (for alarms)
     - Auto Scaling Groups notifications
     - S3 (bucket events)
