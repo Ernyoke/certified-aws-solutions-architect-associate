@@ -23,7 +23,7 @@
 - One stream is made of many different shards
 - 1MB/s or 1000 messages at write PER SHARD
 - 2MB/s read PER SHARD
-- Billing is done per shard provisioned, we can have a many shards as we want as long as we accept the cost
+- Billing is done per shard provisioned, we can have as many shards as we want as long as we accept the cost
 - Ability to batch the messages per calls
 - The number of shards can evolve over time (reshard/merge)
 - **Records are ordered per shard!**
