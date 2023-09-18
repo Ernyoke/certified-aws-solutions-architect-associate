@@ -13,7 +13,7 @@
 
 - Streams are divided in ordered Shards/Partitions
 - For higher throughput we can increase the size of the shards
-- Data retention is 1 day by default, can go up to 7 days
+- Data retention is 1 day by default, can go up to 365 days
 - Kinesis Streams provides the ability to reprocess/replay the data
 - Multiple applications can consume the same stream, this enables real-time processing with scale of throughput
 - Kinesis is not a database, once the data is inserted, it can not be deleted
