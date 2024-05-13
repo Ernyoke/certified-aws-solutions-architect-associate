@@ -1,5 +1,10 @@
 # AWS Certified Solutions Architect - Associate (SAA-S02) Exam Notes
 
+## WARNING
+
+The content of this repository is out of date with the current requirements for Solutions Architect - Associate exam. Furthermore, certain notes contain information that is not accurate anymore.
+**Use this repository with discretion!**
+
 ## Table of Contents
 
 1. Fundamentals
@@ -95,10 +100,3 @@ It validates an examinee's ability to:
 ## Credits
 
 - These notes are based on the Ultimate [AWS Certified Solutions Architect Associate 2021](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) course by Stephane Maarek
-
-## My other AWS Certification Notes
-
-- [AWS Certified Developer – Associate (DVA-C01)](https://github.com/Ernyoke/certified-aws-developer-associate-notes)
-- [AWS Certified SysOps – Associate (SOA-C01)](https://github.com/Ernyoke/certified-aws-sysops-associate)
-- [AWS Certified DevOps Engineer – Professional (DOP-C01)](https://github.com/Ernyoke/certified-aws-devops-professional)
-- [AWS Certified Solutions Architect – Professional (SAP-C01)](https://github.com/Ernyoke/certified-aws-solutions-architect-professional)
