@@ -13,7 +13,7 @@
 
 - Streams are divided in ordered Shards/Partitions
 - For higher throughput we can increase the size of the shards
-- Data retention is 1 day by default, can go up to 7 days
+- Data retention is 1 day by default, can go up to 365 days
 - Kinesis Streams provides the ability to reprocess/replay the data
 - Multiple applications can consume the same stream, this enables real-time processing with scale of throughput
 - Kinesis is not a database, once the data is inserted, it can not be deleted
@@ -23,7 +23,7 @@
 - One stream is made of many different shards
 - 1MB/s or 1000 messages at write PER SHARD
 - 2MB/s read PER SHARD
-- Billing is done per shard provisioned, we can have a many shards as we want as long as we accept the cost
+- Billing is done per shard provisioned, we can have as many shards as we want as long as we accept the cost
 - Ability to batch the messages per calls
 - The number of shards can evolve over time (reshard/merge)
 - **Records are ordered per shard!**
